@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <DataConnection Name="nwindConnection" ProviderKey="Access97">
+      <Parameters>
+        <Parameter Name="database" Value="D:\CustomerTickets\TestTestTestTEstTEstE\T182186\T182186_CS\AspProject\App_Data\nwind.mdb" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="Invoices">
+      <DataProvider DataConnection="nwindConnection">
+        <Selection>
+          <Table Name="Invoices">
+            <Columns>
+              <Column Name="City" />
+              <Column Name="Country" />
+              <Column Name="OrderDate" />
+              <Column Name="ProductName" />
+              <Column Name="UnitPrice" />
+              <Column Name="Quantity" />
+              <Column Name="ExtendedPrice" />
+              <Column Name="Freight" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="Invoices" FilterString="[Invoices.OrderDate] &gt;= ?StartDate" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Parameters>
+    <Parameter Name="StartDate" Type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Value="1994-08-01T00:00:00" Description="StartDate" />
+  </Parameters>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid Products" DataSource="dataSource1">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Dimension DataMember="ProductName" UniqueName="DataItem0" />
+        <Measure DataMember="ExtendedPrice" UniqueName="DataItem1" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn Name="Products">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="ExtendedPrice (Sum)">
+          <Measure UniqueName="DataItem1" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutGroup Weight="68.536585365853654">
+        <LayoutItem DashboardItem="gridDashboardItem1" Weight="19.543317662860982" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
