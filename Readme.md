@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DashboardScripts.js](./CS/AspProject/DashboardScripts.js) (VB: [DashboardScripts.js](./VB/AspProject/DashboardScripts.js))
+* [Default.aspx](./CS/AspProject/Default.aspx) (VB: [Default.aspx.vb](./VB/AspProject/Default.aspx.vb))
+* [Default.aspx.cs](./CS/AspProject/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/AspProject/Default.aspx.vb))
+* [XtraReport1.cs](./CS/AspProject/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/AspProject/XtraReport1.vb))
+<!-- default file list end -->
 # How to export item data to Excel by generating a custom report
 
 
