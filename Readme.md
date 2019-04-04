@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [DashboardScripts.js](./CS/AspProject/DashboardScripts.js) (VB: [DashboardScripts.js](./VB/AspProject/DashboardScripts.js))
-* [Default.aspx](./CS/AspProject/Default.aspx) (VB: [Default.aspx.vb](./VB/AspProject/Default.aspx.vb))
+* [Default.aspx](./CS/AspProject/Default.aspx) (VB: [Default.aspx](./VB/AspProject/Default.aspx))
 * [Default.aspx.cs](./CS/AspProject/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/AspProject/Default.aspx.vb))
 * [XtraReport1.cs](./CS/AspProject/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/AspProject/XtraReport1.vb))
 <!-- default file list end -->
