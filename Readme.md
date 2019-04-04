@@ -5,7 +5,7 @@
 * [PivotReportBestFitHelper.cs](./CS/WebDashboard_CustomExport/PivotReportBestFitHelper.cs) (VB: [PivotReportBestFitHelper.vb](./VB/WebDashboard_CustomExport/PivotReportBestFitHelper.vb))
 * [DashboardScripts.js](./CS/WebDashboard_CustomExport/Scripts/DashboardScripts.js) (VB: [DashboardScripts.js](./VB/WebDashboard_CustomExport/Scripts/DashboardScripts.js))
 * [TableReport1.cs](./CS/WebDashboard_CustomExport/TableReport1.cs) (VB: [TableReport1.vb](./VB/WebDashboard_CustomExport/TableReport1.vb))
-* [WebForm1.aspx](./CS/WebDashboard_CustomExport/WebForm1.aspx) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_CustomExport/WebForm1.aspx.vb))
+* [WebForm1.aspx](./CS/WebDashboard_CustomExport/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebDashboard_CustomExport/WebForm1.aspx))
 * [WebForm1.aspx.cs](./CS/WebDashboard_CustomExport/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/WebDashboard_CustomExport/WebForm1.aspx.vb))
 <!-- default file list end -->
 # How to export item data to Excel by generating a custom report
