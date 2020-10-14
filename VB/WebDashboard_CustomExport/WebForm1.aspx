@@ -1,9 +1,9 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb"
     Inherits="Dashboard_SetParameterValues_Web.WebForm1" %>
 
-<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
-<%@ Register Assembly="DevExpress.Dashboard.v16.2.Web, Version=16.2.3.0, 
+<%@ Register Assembly="DevExpress.Dashboard.v16.2.Web, Version=16.2.17.0, 
                                                        Culture=neutral, 
                                                        PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.DashboardWeb"
